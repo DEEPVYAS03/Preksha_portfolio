@@ -29,7 +29,6 @@ const HeroSection = () => {
                 1000,
                 "App Developer",
                 1000,
-                
               ]}
               wrapper="span"
               speed={50}
@@ -37,8 +36,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            
-As a driven and adaptable professional, I thrive on embracing fresh challenges. Fueled by a relentless pursuit of knowledge, I am committed to consistently delivering excellence.
+            As a driven and adaptable professional, I thrive on embracing fresh
+            challenges. Fueled by a relentless pursuit of knowledge, I am
+            committed to consistently delivering excellence.
           </p>
           <div>
             <Link
@@ -56,9 +56,6 @@ As a driven and adaptable professional, I thrive on embracing fresh challenges. 
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Open CV
               </span>
-   
- 
-
             </Link>
           </div>
         </motion.div>

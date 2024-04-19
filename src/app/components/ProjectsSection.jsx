@@ -154,7 +154,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
@@ -163,7 +163,8 @@ const ProjectsSection = () => {
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
-            <ProjectCard className="text-white flex flex-row justify-center items-center gap-2 py-6"
+            <ProjectCard
+              className="text-white flex flex-col lg:flex-row justify-center items-center gap-2 py-6"
               key={project.id}
               title={project.title}
               skill1={project.skill1}
